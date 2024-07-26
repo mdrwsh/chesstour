@@ -1,0 +1,56 @@
+   Player        Score    ELO      Winrate    
+1. Patricia 3    1.5      16.0     50.0%      
+2. Patricia 3    0.5      -16.0    0.0%       
+
+
+[Event "?"]
+[Site "?"]
+[Date "2024.07.27"]
+[Round "1"]
+[White "Patricia 3"]
+[Black "Patricia 3"]
+[Result "1/2-1/2"]
+
+1. e4 d5 2. exd5 c6 3. Nf3 cxd5 4. d4 Nf6 5. c3 Bf5 6. Be2 h6 7. Bf4 Nc6 8. Qb3
+Qc8 9. Na3 a6 10. O-O e6 11. Nc2 Be7 12. Ne3 Bh7 13. Qd1 O-O 14. h3 Qd8 15. Bd3
+Bxd3 16. Qxd3 Bd6 17. Bxd6 Qxd6 18. Rfe1 Rac8 19. Ng4 Ne4 20. Nge5 a5 21. a4 Qc7
+22. Re2 Rb8 23. Qe3 Rfc8 24. Nd3 b5 25. axb5 Rxb5 26. Nd2 Nd6 27. Ree1 Ne7
+28. Ra2 Ng6 29. g3 Nc4 30. Qe2 Rcb8 31. Nxc4 dxc4 32. Nc5 Qc6 33. h4 Ne7
+34. Rea1 Nd5 35. Qxc4 Rxb2 36. Rxb2 Rxb2 37. Qa4 Qxa4 38. Rxa4 Nxc3 39. Rxa5 g6
+40. Kg2 Kg7 41. Ra7 Kg8 42. Ra5 Nd5 43. Ne4 Kg7 44. Nd6 Rb6 45. Nc4 Rb4 46. Ne5
+Rb7 47. Ra8 g5 48. hxg5 hxg5 49. Rd8 Nf6 50. Ra8 Ne4 51. Nd3 Rc7 52. Nc5 Nc3
+53. Rd8 Ra7 54. Rd7 Rxd7 55. Nxd7 Nb5 56. Kf3 Nxd4+ 57. Ke4 Nc6 58. Kf3 Kg6
+59. g4 Ne7 60. Ke3 Kh6 61. Kd3 Nd5 62. Kd4 Kg7 63. Ke5 Nf4 64. Ke4 f6 65. Nc5
+Kf7 66. Kf3 Ng6 67. Kg3 Ne5 68. Kh3 Nc4 69. Ne4 Nb2 70. Nc5 Ke7 71. Kg3 Nc4
+72. Ne4 Ne5 73. Nc5 Kf7 74. Kh3 Nc6 75. Kg3 Ke7 76. Ne4 Nd4 77. Kh2 Ne2 78. Kg2
+Nf4+ 79. Kh2 Nd3 80. Kg2 Kf7 81. Kg3 Kg7 82. Kf3 f5 83. gxf5 exf5 84. Nxg5 Nb4
+85. Nh3 Na2 86. Ke3 Nc1 87. Kd2 Nb3+ 88. Kc3 Nc5 89. Nf4 Kg8 90. Kc4 Ne4 91. Kd4
+Nd2 92. Kc3 Nf3 93. Kd3 Kf7 94. Ke3 Nh4 95. Ke2 Kg8 96. Kd2 Kf7 97. Ke1 Kg7
+98. Kf1 Kg8 99. Ng2 Nf3 100. Ne1 Nd4 101. f4 Ne6 102. Nd3 Nc7 103. Nb4 Ne6
+104. Nd3 Nc7 105. Nc1 Ne6 106. Kf2 Nd4 107. Kg1 Ne6 108. Kh1 Nc7 109. Kg2 Ne6
+110. Kf2 Ng7 111. Kg2 Ne6 112. Kh1 Nf8 113. Kh2 Ne6 114. Kh1 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2024.07.27"]
+[Round "1"]
+[White "Patricia 3"]
+[Black "Patricia 3"]
+[Result "1-0"]
+
+1. e4 d5 2. exd5 c6 3. dxc6 Nxc6 4. Bc4 e5 5. d3 Nf6 6. Nf3 Bg4 7. O-O Be7 8. c3
+Qc7 9. Nbd2 Rd8 10. Qe2 O-O 11. a4 Nd5 12. Ne4 h6 13. Re1 Rfe8 14. Bd2 Bh5
+15. a5 a6 16. b4 Nf4 17. Bxf4 exf4 18. Qa2 Bxb4 19. cxb4 Bxf3 20. gxf3 Nd4
+21. Kg2 Qd7 22. Qa4 Qxa4 23. Rxa4 Re5 24. Rb1 Rd7 25. Ra2 Rc7 26. Rab2 Rc6
+27. b5 axb5 28. Rxb5 Nxb5 29. Bxb5 Rc7 30. a6 bxa6 31. Bxa6 Re6 32. Bc4 Rec6
+33. h4 Rxc4 34. dxc4 Rxc4 35. Rb8+ Kh7 36. Rb7 f5 37. Nd6 Rc5 38. h5 Ra5 39. Ne8
+Kg8 40. Nxg7 Re5 41. Rd7 Kf8 42. Rc7 Kg8 43. Rb7 Kh8 44. Rf7 Kg8 45. Rc7 Kh8
+46. Rd7 Kg8 47. Kh3 Kf8 48. Rb7 Kg8 49. Rc7 Kh8 50. Rd7 Kg8 51. Rb7 Kf8 52. Ra7
+Kg8 53. Kh4 Kf8 54. Rc7 Kg8 55. Rd7 Kh8 56. Ra7 Kg8 57. Kh3 Kh8 58. Kg2 Kg8
+59. Kf1 Kh8 60. Rf7 Kg8 61. Rd7 Kh8 62. Rb7 Kg8 63. Kg1 Kh8 64. Rf7 Kg8 65. Rc7
+Kh8 66. Rd7 Re1+ 67. Kh2 Re5 68. Rf7 Kg8 69. Rb7 Kh8 70. Ra7 Re2 71. Nxf5 Rxf2+
+72. Kh3 Rxf3+ 73. Kg4 Rb3 74. Re7 f3 75. Re8+ Kh7 76. Rf8 f2 77. Rf7+ Kh8
+78. Nxh6 Rb1 79. Rxf2 Rb5 80. Rf5 Rb7 81. Rf7 Rb6 82. Nf5 Ra6 83. Kg5 Rb6
+84. Rd7 Re6 85. Ne7 Kg7 86. Ng6+ Re7 87. Nxe7 Kf7 88. Ng6+ Ke6 89. Rd8 Kf7
+90. h6 Ke6 91. h7 Kf7 92. h8=Q Ke6 93. Qe8# 1-0
+

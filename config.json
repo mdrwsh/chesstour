@@ -1,0 +1,30 @@
+[
+  {
+    "dir": null,
+    "engine": "engines/berserk-13-avx2-pext.exe"
+  },
+  {
+    "dir": null,
+    "engine": "engines/dragon-64bit-avx2.exe"
+  },
+  {
+    "dir": null,
+    "engine": "engines/minic_3.41_mingw_x64_skylake.exe"
+  },
+  {
+    "dir": null,
+    "engine": "engines/stockfish-windows-x86-64-avx2.exe"
+  },
+  {
+    "dir": null,
+    "engine": "engines/obsidian.exe"
+  },
+  {
+    "dir": null,
+    "engine": "engines/patricia.exe"
+  },
+  {
+    "dir": null,
+    "engine": "engines/patricia - Copy.exe"
+  }
+]
