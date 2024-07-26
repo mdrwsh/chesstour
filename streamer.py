@@ -25,7 +25,7 @@ board_temp = [["bR","bN","bB","bQ","bK","bB","bN","bR"],
              [".." for _ in range(8)                  ],
              ["wP" for _ in range(8)                  ],
              ["wR","wN","wB","wQ","wK","wB","wN","wR"]]
-piece_img = {code:Image.open(f"img/chesspieces/{code}.png") for code in ['wP','wN','wB','wR','wQ','wK','bP','bN','bB','bR','bQ','bK']}
+piece_img = {code:Image.open(f"pieces/{code}.png") for code in ['wP','wN','wB','wR','wQ','wK','bP','bN','bB','bR','bQ','bK']}
 keyword = ['depth', 'seldepth', 'pv', 'cp', 'nps']
 stdread = ''
 iswhite = None
@@ -430,7 +430,7 @@ def match_handle(game_info, engine_info, engine1, engine2, tc):
         if iswhite: py = y2+1
         else: py = y2-1
         board[py][x2] = ".."
-        img = Image.open(f"img/chesspieces/{'wP' if iswhite else 'bP'}.png")
+        img = Image.open(f"pieces/{'wP' if iswhite else 'bP'}.png")
         color = light_color if ((x2 + py) % 2 == 0) else dark_color
         x_start = x2*square_size + x_offset
         y_start = py*square_size + y_offset
@@ -455,7 +455,7 @@ def match_handle(game_info, engine_info, engine1, engine2, tc):
         y_start = y2*square_size + y_offset
         square_coords = [(x_start, y_start), (x_start+square_size, y_start+square_size)]
         d.rectangle(square_coords, fill=color)
-        img = Image.open(f"img/chesspieces/{rook}.png")
+        img = Image.open(f"pieces/{rook}.png")
         size = img.size
         new_size = (square_size, square_size)
         img = img.resize(new_size)
@@ -747,11 +747,15 @@ def main():
   purple   = (205,150,205)
   # TODO: tc is packed into tuple like (1, 0) which means 1+0
   tournament = [("/1:0",pink)]+ [("/3:0",mint), ("/5:0",brown)]
-  os.system("mkdir result")
+  if not os.path.exists("result"):
+    os.makedirs("result")
   for tc,color in tournament:
     tournament_date = time.strftime('%Y%m%d')
     pgn_file = f'{tc[1]}-0_{tournament_date}.pgn'
-    os.system(f"rm result/{pgn_file} result/games.pgn")
+    try:
+      os.remove(f"result/{pgn_file}")
+      os.remove("result/games.pgn")
+    except: pass
     game_count = 0
     match_retry_count = 0
     match_retry_limit = 2
@@ -815,7 +819,7 @@ def main():
       engine_info[engine]['score'] = 0 # reset score
       player_list.append(f"{name} {version}")
       score_list.append(str(score))
-      elo_list.append(str(elo))
+      elo_list.append(str(round(elo,1)))
       winr_list.append('N/A' if total == 0 else f"{win/total*100}%")
     header = ('Player', 'Score', 'ELO', 'Winrate')
     body = (
@@ -825,10 +829,10 @@ def main():
       tuple(winr_list)
     )
     table = get_table(header, body, True)
-    with open("result/temp.txt", "w") as f:
-      f.write(table + '\n\n')
-    os.system(f"cat result/temp.txt result/games.pgn > result/{pgn_file}")
-    os.system("rm result/temp.txt result/games.pgn")
+    pgns = open("result/games.pgn").read()
+    with open(f"result/{pgn_file}", "w") as f:
+      f.write(table + '\n\n' + pgns)
+    os.remove("result/games.pgn")
     
     # ending page after tournament showing the result
     bg_color = color_accent(color, "pastel")
